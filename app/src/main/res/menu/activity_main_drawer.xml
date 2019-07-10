@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/calender"
+            android:icon="@drawable/calender"
+            android:title="Calender" />
+
+
+        <item android:title="Idea">
+            <menu>
+                <item
+                    android:id="@+id/postidea"
+                    android:icon="@drawable/post"
+                    android:title="PostIdea" />
+
+                <item
+                    android:id="@+id/viewidea"
+                    android:icon="@drawable/view"
+                    android:title="ViewPostedIdea" />
+
+                <item
+                    android:id="@+id/shareidea"
+                    android:icon="@drawable/shareicon"
+                    android:title="ShareIdea" />
+
+                <item
+                    android:id="@+id/viewshareidea"
+                    android:icon="@drawable/view"
+                    android:title="ViewSharedIdea" />
+
+
+            </menu>
+        </item>
+
+    </group>
+
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/aboutus"
+                android:title="About Us" />
+            <item
+                android:id="@+id/contactus"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/help"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>

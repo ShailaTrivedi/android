@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">IdeaMax</string>
+    <string name="preferance_file_name">preferance_file_name</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="im">Idea Maxima</string>
+    <string name="aboutus2">The android application “IDEAMAXIMA” is for IT Company.
+    </string>
+    <string name="aboutus3">This application works for employee, manager and owner.</string>
+    <string name="aboutus4">This application is basically used to share the idea of employee and manager. </string>
+    <string name="aboutus5"> If any employee of the company want to share any idea for growth of the company he can post his idea in this application and its approved by manager and same as if manager want to share any idea for growth of the company then he can post his idea in this application. </string>
+    <string name="aboutus6">If that idea already available then it is rejected. After acceptance of the idea employee works on that particular idea.</string>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bharti.ideamax">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/transparenticon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Login" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PostIdeaMsg" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".Feedbackmsg" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Facebook" />
+        <activity android:name=".Setting_Account" />
+        <activity android:name=".Setting" />
+        <activity android:name=".Setting_Aboutus" />
+        <activity android:name=".Setting_Contactus" />
+        <activity android:name=".Setting_Help" />
+        <activity android:name=".Setting_FAQ" />
+        <activity android:name=".FAQ1" />
+        <activity android:name=".Answer1" />
+        <activity android:name=".answer2" />
+        <activity android:name=".FAQActivity" />
+        <activity android:name=".Answer3" />
+        <activity android:name=".Answer4" />
+        <activity android:name=".RegisterSubmitMsg" />
+        <activity android:name=".CategoryActivityMsg" />
+        <activity android:name=".RegActivity" />
+        <activity android:name=".New" />
+        <activity android:name=".Demo" />
+        <activity android:name=".Google" />
+        <activity android:name=".ViewIdeaActivity" />
+        <activity android:name=".ShareIdeaMsg" />
+        <activity android:name=".ShareViewIdeaActivity"></activity>
+    </application>
+
+</manifest>

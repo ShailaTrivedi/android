@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bharti.ideamax.Feedback">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/icon"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/contact_form_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Feedback"
+            android:textColor="#194073"
+            android:textSize="40sp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Name"
+            android:id="@+id/name"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Email Address"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/dep"
+            android:hint="Department"
+            android:inputType="text" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:hint="Message"
+            android:id="@+id/msg"
+            android:paddingTop="0dp"
+            android:inputType="text" />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Submit"
+            android:textColor="#fff"
+            android:id="@+id/feedbacksubmit" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

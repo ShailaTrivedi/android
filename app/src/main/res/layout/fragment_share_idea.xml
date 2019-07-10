@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bharti.ideamax.ShareIdeaFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/icon"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/contact_form_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="5dp"
+                android:text="Share Your Idea"
+                android:textColor="#ce3232"
+                android:textSize="40sp"
+                android:typeface="serif" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Your Name"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/name"
+                android:inputType="text" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="320dp"
+                android:backgroundTint="@color/colorPrimaryDark"
+                android:hint="Share Your Idea"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:id="@+id/idea"
+                android:inputType="text" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/colorPrimaryDark"
+                android:elevation="4dp"
+                android:paddingLeft="70dp"
+                android:paddingRight="70dp"
+                android:text="Share Idea"
+                android:textColor="#fff"
+                android:id="@+id/shareideasubmit" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
